@@ -1,0 +1,114 @@
+body {
+  background-color: powderblue;
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  font-size: 40px;
+  color: #ffffff;
+}
+
+#game {
+  position: relative;
+  left: 15%;
+  width: 60%;
+ }
+
+.box {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /*  flex box  */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box-player {
+  float: left;
+  width: 33%;
+  /*  flex box  */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.name {
+  font-size: 35px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.player-display {
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  /*   flex box  */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*   style */
+  background-color: #ffffff;
+  border: 15px dotted papayawhip;
+  border-radius: 20px;
+  font-size: 35px;
+  color: #9ed9e0;
+}
+
+.score {
+  font-size: 35px;
+  color: #ffffff;
+}
+
+.box-timer {
+  float: left;
+  width: 33%;
+  height: 230px;
+  /*   flex box */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /*   font */
+  color: #eeeeee;
+  font-size: 60px; 
+}
+
+.choice {
+  float: right;
+  width: 120px;
+  height: 120px;
+  margin: 20px;
+  /*  flex box  */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*  style  */
+  border: 5px solid #ffffff;
+  border-radius: 20px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+#play-button {
+  width: 200px;
+  height: 60px;
+  margin: 10px;
+  /*   flex box to center inside */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /*   style */
+  background-color: #ffffff;
+  color: powderblue;
+  border: 10px dotted mistyrose;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+}
